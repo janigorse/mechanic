@@ -6,7 +6,7 @@
 
 <ion-content>
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button>
+    <ion-fab-button (click)="showAddWorkModal()">
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>
@@ -18,6 +18,7 @@
         <h4>Miha Kovač</h4>
         <p>Nakup novih zimskih gum, menjava</p>
       </ion-label>
+      <ion-badge color="primary">300 €</ion-badge>
     </ion-item>
     <ion-item>
       <ion-label>
@@ -26,6 +27,7 @@
         <h4>Luka Novak</h4>
         <p>Nakup odbijača, barvanje, montaža</p>
       </ion-label>
+      <ion-badge color="primary">650 €</ion-badge>
     </ion-item>
   </ion-list>
 </ion-content>
