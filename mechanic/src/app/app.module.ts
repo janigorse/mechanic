@@ -8,7 +8,7 @@ import { StatusBar } from "@ionic-native/status-bar/ngx";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { AddWorkModalPage } from "./tab1/addWorkModal/addWorkModal.page";
+import { AddWorkModalPage } from "./workTab/addWorkModal/addWorkModal.page";
 
 @NgModule({
   declarations: [AppComponent, AddWorkModalPage],
